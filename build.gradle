@@ -14,7 +14,6 @@ repositories {
 }
 
 dependencies {
-
 }
 
 test {
