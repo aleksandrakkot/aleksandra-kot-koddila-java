@@ -8,6 +8,7 @@ import com.kodilla.stream.forumuser.ForumUser;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class StreamMain {
@@ -29,5 +30,6 @@ public class StreamMain {
                 .collect(Collectors.toMap(ForumUser::getUserId, user -> user)); // Tworzymy mapę userId -> ForumUser
 
         System.out.println(theResultStringOfUsers);
+
     }
 }
